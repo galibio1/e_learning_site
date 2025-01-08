@@ -1,0 +1,882 @@
+/*font family start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'AOK Buenos Aires Regular';
+    src: url(../fonts/AOKBuenosAiresRegular.woff);
+}
+
+@font-face {
+    font-family: 'AOK Buenos Aires Bold';
+    src: url(../fonts/AOKBuenosAiresBold.woff);
+}
+
+@font-face {
+    font-family: 'Buenos Aires';
+    src: url(../fonts/BuenosAires-Light.woff);
+}
+
+/*font family end*/
+/*common css start*/
+:root {
+    --pop: "Poppins", sans-serif;
+    --nun: "Nunito Sans", sans-serif;
+    --rob: "Roboto", sans-serif;
+    --p_color: #696984;
+
+}
+
+body {
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--p_color);
+}
+
+/*common css end*/
+/*header start*/
+
+.hdr {
+    background-color: #49BBBD !important;
+    border-bottom: 1px solid #49BBBD;
+}
+
+.logo {}
+
+.menu li {
+    padding-right: 50px !important;
+}
+
+.menu li:last-child {
+    padding-right: 20px !important;
+}
+
+.menu li a {
+    color: white !important;
+}
+
+.menu_lo {
+    margin-left: 20px !important;
+    width: 110px;
+    font-weight: 500;
+    background-color: white !important;
+    color: #5B5B5B !important;
+    border-radius: 18px !important;
+    border-color: #7ECCCE !important;
+
+}
+
+.menu_lo:hover {
+    background-color: #7ECCCE !important;
+    color: white !important;
+}
+
+.menu_lo:focus {
+    border-color: #7ECCCE !important;
+}
+
+/*header end*/
+/*banner start*/
+.banner {
+    /* background-image: url(../images/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    /*border-radius: 0 0% 74% 74%;
+    clip-path: ellipse(50% 100% at 50% 100%);
+    overflow: hidden;
+    background-color: #49BBBD;*/
+    height: 970px;
+    background-size: cover;
+    background-position: center;
+    clip-path: ellipse(100% 100% at 50% 100%);
+    transform: rotate(180deg);
+
+    background-color: #49BBBD;
+}
+
+.for_rot {
+    transform: rotate(180deg);
+    position: relative;
+    bottom: 215px;
+}
+
+.banner_copy_grp {
+    margin-top: 245px;
+    height: fit-content;
+}
+
+.banner_h1 {
+    font-weight: 700;
+    color: white;
+}
+
+.banner_h1 span {
+    color: #F48C06;
+}
+
+.banner_p {
+    padding: 35px 176px 0 0;
+    font-family: var(--nun);
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.buttn {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.banner_btn {
+    padding: 12px 10px;
+    width: 150px;
+    font-weight: 500;
+    background-color: white !important;
+    color: #5B5B5B !important;
+    border-radius: 30px !important;
+    border-color: #7ECCCE !important;
+}
+
+.banner_btn:hover {
+    background-color: #7ECCCE !important;
+    color: white !important;
+}
+
+.banner_icon {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.banner_icon i {
+    font-size: 45px;
+    color: white;
+
+}
+
+.banner_icon span {
+    margin-left: 30px;
+    color: black !important;
+}
+
+/*On img div start*/
+.banner_img {}
+
+.first_point {
+    bottom: 700px;
+    position: relative;
+    overflow: hidden;
+    height: 75px;
+    width: 220px;
+    background-color: white;
+    border-radius: 15px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+}
+
+.cal_icon,
+.cal_n_icon {
+
+    text-align: center;
+    margin: 0 20px;
+    font-size: 26px;
+    color: white;
+    border-radius: 6px;
+}
+
+.cal_icon {
+    width: 50px;
+    height: 40px;
+    background-color: #23BDEE;
+}
+
+.text_contain h6 {
+    margin: 0;
+    /* Remove default margin */
+    font-size: 16px;
+    /* Larger text for the number */
+    color: #111111;
+}
+
+.text_contain span {
+    font-size: 13px;
+}
+
+.second_point {
+
+    position: relative;
+    overflow: hidden;
+    bottom: 485px;
+    height: 75px;
+    width: 295px;
+    background-color: white;
+    border-radius: 15px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+}
+
+.third_pointr {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.cal_n_icon {
+    width: 45px;
+    height: 40px;
+    background-color: #F88C3D;
+}
+
+.third_point {
+    position: relative;
+    bottom: 385px;
+    height: fit-content;
+    width: 295px;
+    background-color: white;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+
+.third_point_grp {
+    padding: 20px 0;
+}
+
+.cal_l_icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+    background-color: #23BDEE;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.buttn_on_img {
+    text-align: center;
+}
+
+.banner_onthirdpoint_btn {
+    margin-top: 10px;
+    padding: 7px 10px;
+    width: 140px;
+    font-weight: 500;
+    background-color: #D8587E !important;
+    color: white !important;
+    border-radius: 30px !important;
+    border-color: #D8587E !important;
+}
+
+.banner_onthirdpoint_btn:hover {
+    background-color: transparent !important;
+    color: #D8587E !important;
+}
+
+/*On img div end*/
+/*banner end*/
+/*Success satrt*/
+.success {
+    margin: 100px 0;
+}
+
+.success_ht {
+    text-align: center;
+}
+
+.success_ht h1 {
+    font-family: 'AOK Buenos Aires Bold';
+    font-size: 45px;
+    font-weight: 700;
+    color: #010514;
+}
+
+.success_ht p {
+    font-family: 'AOK Buenos Aires Regular';
+    font-size: 16px;
+    font-weight: 400;
+    color: #010514;
+}
+
+.count {
+    margin: 50px 0;
+}
+
+.item {
+    font-family: 'Buenos Aires';
+    padding: 0 20px;
+
+}
+
+.item h1,
+.item span {
+    background: linear-gradient(to right, #136CB5, #49BBBD);
+    -webkit-background-clip: text;
+    /* For Safari */
+    color: transparent;
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.item_hspan {
+    display: flex;
+    align-items: center;
+}
+
+.item h6 {
+    color: black;
+    position: relative;
+    top: -20px;
+    font-size: 21px;
+}
+
+/*Success end*/
+/*cloud software section start*/
+.cloud_ht h1 {
+    color: #00CBB8;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.cloud_ht span {
+    color: #2F327D;
+}
+
+.cloud_ht p {
+    line-height: 30px;
+}
+
+.cloud_item {
+    margin-top: 100px;
+    width: 400px;
+    height: 380px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+}
+
+.cloud_aicon,
+.cloud_bicon,
+.cloud_cicon {
+    position: relative;
+    top: -35px;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+}
+
+.cloud_aicon {
+    background-color: #5B72EE;
+}
+
+.cloud_bicon {
+    background-color: #00CBB8;
+}
+
+.cloud_cicon {
+    background-color: #29B9E7;
+}
+
+.cloud_ht h2 {
+    font-size: 27px;
+    font-weight: 500;
+    color: #2F327D;
+}
+
+.item_pad {
+    padding: 30px 50px 20px;
+}
+
+/*cloud software section end*/
+/*What is section start*/
+.what_ht h1 {
+    color: #2F327D;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.what_ht span {
+    color: #00CBB8;
+}
+
+
+
+
+
+
+
+
+
+
+.what_item {
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    width: 500px;
+}
+
+.what_item img {
+    width: 100%;
+    /* height: 100%; */
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 83%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+}
+
+.what_item h2 {
+    position: absolute;
+    top: 28%;
+    left: 28%;
+    text-transform: uppercase;
+    color: white;
+    z-index: 10;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.what_item .butn {
+    width: 190px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 19px;
+    border-radius: 28px;
+    cursor: pointer;
+    z-index: 10;
+    /* Ensures butn is above the overlay */
+}
+
+.what_item .butn:hover {
+
+    background-color: #23BDEE;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+}
+
+.what_item .butn:hover~.overlay {
+    background-color: rgba(0, 0, 0, 0);
+    /* Darken effect on hover */
+    border-radius: 20px;
+}
+
+/*What is section end*/
+/* classroom section start*/
+.classroom{
+    margin: 75px 0;
+}
+.content{
+    margin-top: 90px;
+}
+.content h2{
+    position: relative;
+    z-index: 1;
+    font-family: var(--pop);
+    font-size: 27px;
+    font-weight: 500;
+    color: #2F327D;
+}
+.content span{
+    color: #00CBB8;
+}
+.content p{
+    line-height: 30px;
+    padding: 20px 40px 0 0;
+}
+.content a{
+    color: var(--p_color);
+}
+.content_img{
+    position: relative;
+}
+.content_icon{
+    position: absolute;
+    z-index: 2;
+    font-size: 50px;
+    top: 160px;
+    left: 285px;
+    color: white;
+}
+
+.content_icon i{
+    background-color: #23BDEE;
+    border-radius: 50%;
+    
+}
+.content_icon i:hover{
+    background-color: transparent;
+    border: 1px solid #23BDEE;
+}
+.circle1{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    top: 35px;
+    background-color: #33EFA0;
+    border-radius: 50%;
+}
+
+.box1{
+    position: relative;
+    height: 130px;
+    width: 130px;
+    right: 20px;
+    bottom: 20px;
+    background-color: #23BDEE;
+    border-radius: 25px;
+}
+.content_img img{
+    position: absolute;
+    z-index: 1;
+}
+.box2{
+    position: absolute;
+    top: 220px;
+    right: 25px;
+    height: 230px;
+    width: 220px;
+    right: -23px;
+    background-color: #33EFA0;
+    border-radius: 25px;
+}
+/* classroom section end*/
+/*feature start*/
+.feature{
+    margin: 200px 0 100px;
+}
+.feature_img{
+    
+}
+.feature_img_row{
+    margin-top: 110px;
+    position: relative;
+}
+.feature_circle1{
+    
+    position: absolute;
+    left: 55px;
+    top: -50px;
+    height: 90px;
+    width: 90px;
+    background-color: #33EFA0;
+    border-radius: 50%;
+    z-index: -1;
+}
+.feature_circle2{
+    
+    position: absolute;
+    bottom: 10px;
+    left: 485px;
+    height: 190px;
+    width: 190px;
+    background-color: #5B61EB;
+    border-radius: 50%;
+    z-index: -1;
+}
+.feature_img img{
+
+}
+.list_design{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.img_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 45px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.img_icon img{
+    height: 15px;
+}
+.list_design p{
+    line-height: 30px;
+    padding: 20px 30px 0;
+}
+/*feature end*/
+/*tools section start*/
+.tools{
+    position: relative;
+    margin: 100px 0;
+   
+}
+.mbottom{
+    margin-bottom: -50px;
+}
+.tool_h2_p{
+    padding-right: 323px;
+    line-height: 45px;
+}
+.tool_p_p{
+    padding-right: 100px !important;
+    line-height: 32px !important;
+}
+.button_tool{
+    text-align: center;
+}
+.button_tool a{
+width: 200px;
+color: #49BBBD;
+background-color: transparent;
+border: 1px solid #49BBBD;
+padding: 15px 19px;
+border-radius: 28px;
+cursor: pointer;
+}
+/*tools section end*/
+/* testimonial saectionn start */
+.testimonial{
+    padding: 105px 50px 0 0
+}
+.line{
+    display: flex;
+    align-items: center;
+}
+.line span{
+    height: 1px;
+    width: 50px;
+    background-color: #525596;
+}
+.line h6{
+    padding: 0 30px;
+    font-family: var(--nun);
+    color: #525596;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.testimonial h1{
+    padding: 15px 0;
+    font-family: var(--nun);
+    font-size: 45px;
+    font-weight: 700;
+    color: #2F327D;
+}
+/* testimonial button design */
+.assessment-button {
+    width: 269px;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding: 10px 20px; */
+    border: 1px solid #49BBBD;
+    border-radius: 30px;
+    font-family: var(--pop);
+    font-size: 16px;
+    color: #49BBBD;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .assessment-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow on hover */
+  }
+  
+  .text {
+    margin-right: 10px; /* Space between text and circle */
+    margin-left: 25px;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #49BBBD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+.circle i{
+    color: #00CBB8;
+    font-size: 47px;
+    color: white;
+    background-color: #00CBB8;
+    border-radius: 50%;
+
+}
+  
+  
+  
+/* testimonial saectionn end */
+/* news start */
+.mrtb{
+    margin: 70px 0;
+}
+.news_content{
+   
+}
+.news_btn{
+    background-color: #49BBBD;
+    color: white;
+    border-radius: 30px;
+    width: 115px;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+.news_ht h2{
+    font-family: var(--nun);
+    font-size: 36px;
+    font-weight: 700;
+    color: #2F327D;
+}
+.news_h{
+    color: #252641 !important;
+    padding-bottom: 16px;
+    line-height: 40px;
+}
+.news_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news_item_conten{
+    padding: 0 0 0 19px;
+}
+.news_item_conten h5{
+    font-size: 18px;
+    color: #252641;
+    line-height: 30px;
+}
+.news_item_conten p{
+
+}
+.news_side_content{
+    position: relative;
+    margin-bottom: 25px;
+}
+.news_btn_pos{
+    position: absolute;
+    z-index: 1;
+    bottom: -15px;
+    left: 145px;
+}
+/* news end */
+/* footre start */
+.bg{
+    background-color: #252641;
+}
+.logo_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.logo_title span{
+    display: block;
+    height: 50px;
+    width: 2px;
+    background-color: #626381;
+    margin: 0 20px 0 50px;
+}
+.logo_title h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.c_form{
+    margin: 20px 0 50px 0;
+    padding: 20px 80px;
+}
+.c_input{
+    height: 50px;
+    font-family: var(--pop);
+    color: #626381;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: 1px solid #626381;
+    background: transparent;
+}
+.c_input::placeholder{
+    color: #626381;
+}
+.c_center{
+
+}
+
+.c_submit{
+    width: 140px;
+    height: 50px;
+    background-color: #49BBBD;
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 30px;
+    
+}
+.c_submit:hover{
+    background-color: white;
+    color: #010101;
+}
+.c_form h5{
+    color:#B2B3CF;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-link {
+    color: #b3b3cc;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Text */
+  .footer-text {
+    font-size: 12px;
+    color: #b3b3cc;
+  }
+/* footre end */

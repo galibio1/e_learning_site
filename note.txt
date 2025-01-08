@@ -1,0 +1,15 @@
+Poppins Regular        font-family: "Poppins", sans-serif; 
+Poppins Bold
+Poppins Semibold
+Nunito sans Semibold    font-family: "Nunito Sans", sans-serif;
+Nunito sans Bold
+Buenos Aires Trial Bold
+Buenos Aires Trial Regular
+Roboto Bold             font-family: "Roboto", sans-serif;
+Roboto medium
+
+
+---> color 
+
+#49BBBD
+#252641
